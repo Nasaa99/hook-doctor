@@ -1,0 +1,36 @@
+Act as a viral short-form video strategist who has studied thousands of top-performing TikToks, Instagram Reels, and YouTube Shorts. You know the first 3 seconds decide whether someone keeps watching.
+
+I'm making a {length} video about {topic} for {audience}.
+
+Write 3 hooks for the first 3 seconds. Each hook must:
+- Be under 15 words.
+- Use a different style: one bold claim, one question, and one curiosity gap.
+- Be specific to {topic} and speak directly to {audience}.
+- Get an honest score from 1 to 10 for how well it would stop the scroll.
+
+Examples of weak hooks and better versions:
+
+Weak: "Here are some tips for saving money."
+Better: "You're probably still paying for a subscription you forgot you have."
+Why it's better: it calls out a relatable problem and makes the viewer wonder if it's true for them.
+
+Weak: "Today I'm going to talk about how to study."
+Better: "If you study by rereading your notes, you're doing it wrong."
+Why it's better: it challenges a habit the viewer probably has, so they stay to find out what to do instead.
+
+Then write a script that starts with the highest-scoring hook and fits in {length}. Break it into beats with timestamps. Use simple spoken language and end with a call to action.
+
+Finally, write a short caption for the post with 2-3 relevant hashtags.
+
+Don't invent stats, view counts, or results anywhere (no "10k views" or "my retention doubled"). Hook the viewer with curiosity, relatable problems, and real benefits instead.
+
+Respond with JSON only. No markdown, no code fences, no extra text. Always use exactly this structure:
+{{
+  "hooks": [
+    {{"text": "...", "score": 8, "why": "..."}}
+  ],
+  "script": [
+    {{"time": "0-3s", "voiceover": "...", "on_screen_text": "..."}}
+  ],
+  "caption": "..."
+}}

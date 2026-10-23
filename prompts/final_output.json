@@ -1,0 +1,47 @@
+{
+  "hooks": [
+    {
+      "text": "College creators: your video isn't boring, your first three seconds just suck.",
+      "score": 8,
+      "why": "It directly calls out the exact demographic with a blunt, contrarian truth that absolves their creative ability while challenging their technique."
+    },
+    {
+      "text": "Ever spend study breaks editing a video only for people to swipe instantly?",
+      "score": 7,
+      "why": "It triggers a painful, relatable shared experience for student creators, though question hooks are slightly easier to scroll past."
+    },
+    {
+      "text": "There's a reason nobody watches your campus videos, and it’s not your content.",
+      "score": 9,
+      "why": "It opens a strong curiosity gap by validating their effort while withholding the real reason they get scrolled past."
+    }
+  ],
+  "script": [
+    {
+      "time": "0-3s",
+      "voiceover": "There's a reason nobody watches your campus videos, and it’s not your content.",
+      "on_screen_text": "Why your campus videos get skipped 🛑"
+    },
+    {
+      "time": "3-8s",
+      "voiceover": "You spend your free time editing between classes, but people swipe away before you even make your point.",
+      "on_screen_text": "Editing between classes vs. instant swipe 📉"
+    },
+    {
+      "time": "8-16s",
+      "voiceover": "The opening line is the hardest part to nail. That's why this AI app writes your hooks for you.",
+      "on_screen_text": "Meet the AI hook generator ✨"
+    },
+    {
+      "time": "16-23s",
+      "voiceover": "Just type in what your video is about, pick your vibe, and it instantly gives you lines designed to stop the scroll.",
+      "on_screen_text": "Type your topic ➡️ Get viral hooks"
+    },
+    {
+      "time": "23-30s",
+      "voiceover": "Stop overthinking your intros when you have midterms to study for. Check the link in bio and try it on your next post.",
+      "on_screen_text": "Save your time 🔗 Link in bio"
+    }
+  ],
+  "caption": "Stop letting weak intros waste hours of editing between classes. Link in bio to level up your hooks! #StudentCreator #CollegeLife #ContentTips"
+}

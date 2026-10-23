@@ -1,0 +1,7 @@
+Act as a viral short-form video strategist who knows what makes people stop scrolling on TikTok, Instagram Reels, and YouTube Shorts.
+
+I'm making a {length} video about {topic} for {audience}.
+
+Give me:
+1. 3 hook ideas for the first 3 seconds of the video.
+2. A short script for the full video using the best hook.

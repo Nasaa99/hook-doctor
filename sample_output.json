@@ -1,0 +1,47 @@
+{
+  "hooks": [
+    {
+      "text": "Your college videos don't suck, your first three seconds do. Use AI instead.",
+      "score": 8,
+      "why": "It bluntly addresses the real friction point students face, reframing failure away from video quality and toward the opening."
+    },
+    {
+      "text": "Spending two hours editing a video just for people to scroll immediately?",
+      "score": 8,
+      "why": "It targets the exact emotional pain of wasting limited free time between study sessions on content that gets ignored."
+    },
+    {
+      "text": "Why smart college creators never write their own opening lines anymore.",
+      "score": 9,
+      "why": "It opens a strong curiosity gap by implying an unfair advantage other peers are using, triggering FOMO immediately."
+    }
+  ],
+  "script": [
+    {
+      "time": "0-3s",
+      "voiceover": "Why smart college creators never write their own opening lines anymore.",
+      "on_screen_text": "Why college creators stopped writing hooks 🤫"
+    },
+    {
+      "time": "3-9s",
+      "voiceover": "You already have classes, study sessions, and zero free time to brainstorm twenty different opening lines.",
+      "on_screen_text": "Zero time between classes 📚"
+    },
+    {
+      "time": "9-17s",
+      "voiceover": "Instead, drop your video topic into this AI hook generator. It gives you punchy, scroll-stopping intros in seconds.",
+      "on_screen_text": "Drop topic ➡️ Instant hooks"
+    },
+    {
+      "time": "17-23s",
+      "voiceover": "Pick the line that actually grabs attention, shoot your video, and move on with your day.",
+      "on_screen_text": "Pick one, record, done ✨"
+    },
+    {
+      "time": "23-30s",
+      "voiceover": "Stop overthinking your intros. Try it out on your next post and feel the difference.",
+      "on_screen_text": "Try it free for your next post 📲"
+    }
+  ],
+  "caption": "Stop wasting study time trying to write the perfect opening line. Let AI handle the first three seconds for you. #CollegeCreator #ContentCreation #StudentLife"
+}

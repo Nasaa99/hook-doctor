@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hook Doctor</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <h1>Hook Doctor</h1>
+    <p class="subtitle">Get scroll-stopping hooks and a short script for your next video.</p>
+
+    <form id="form">
+      <label for="topic">Topic</label>
+      <input id="topic" type="text" placeholder="e.g. budgeting tips" required>
+
+      <label for="audience">Audience</label>
+      <input id="audience" type="text" placeholder="e.g. college students" required>
+
+      <label for="length">Length</label>
+      <select id="length">
+        <option value="15 seconds">15s</option>
+        <option value="30 seconds" selected>30s</option>
+        <option value="60 seconds">60s</option>
+      </select>
+
+      <button id="generate" type="submit">Generate</button>
+    </form>
+
+    <p id="loading" class="hidden">Generating... this can take up to a minute.</p>
+    <p id="error" class="hidden"></p>
+
+    <section id="results" class="hidden">
+      <h2>Hooks</h2>
+      <div id="hooks"></div>
+
+      <h2>Script</h2>
+      <ol id="script"></ol>
+
+      <h2>Caption</h2>
+      <p id="caption"></p>
+    </section>
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
